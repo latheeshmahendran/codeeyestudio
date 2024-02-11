@@ -1865,13 +1865,14 @@ a.CE-disclaimer:hover {
 @media only screen and (max-width: 600px) {
 
   .site-mobile-menu {
-    width: 50% !important;
+    width: 70% !important;
     height: 100%;
-    right: 101px;
   }
 
   .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
     float: left !important;
+    left: 150px;
+    top: 15px;
   }
 
   .site-nav {
