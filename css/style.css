@@ -1861,6 +1861,45 @@ a.CE-disclaimer:hover {
 }
 
 
+.undercon{
+  display: block;
+  position: absolute;
+  color: red;
+  right: 10px;
+  padding: 10px;
+  /* background: rgba(255, 255, 255, 0.6); */
+  line-height: normal;
+  margin: 0;
+  border: 2px red;
+  border-radius: 5px;
+  top: 195px;
+  width: auto;
+  max-width: 485px;
+  /* opacity: 0.; */
+
+  background: rgba(255, 255, 255, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.3px);
+-webkit-backdrop-filter: blur(3.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+  p{
+    margin: 0;
+
+    span{
+      color: var(--cePC);
+      background-color:var(--ceBlack);
+      padding: 0 0.5px;
+    }
+  }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
 /* Mobile Code */
 @media only screen and (max-width: 600px) {
 
